@@ -1,0 +1,79 @@
+@media screen and (max-width:480px) {
+   .services_item_wrap {
+      padding: 5px;
+   }
+   .services {
+      grid-template: repeat(3, 150px) / 50% 50%;
+   }
+   .span_day:nth-child(1) {
+      display: none;
+   }
+   .span_day:nth-child(2) {
+      display: block;
+      margin-left: 5px;
+   }
+   .services_item .skew_btn_text {
+      padding: 5px 6px;
+   }
+   .slick-arrow.slick-prev{
+      width: 30px;
+      height: 30px;
+   }
+   .slick-arrow.slick-prev::before {
+      width: 30px;
+      height: 30px;
+   }
+   .slick-arrow.slick-next{
+      width: 30px;
+      height: 30px;
+   }
+   .slick-arrow.slick-next::before {
+      width: 30px;
+      height: 30px;
+   }
+   .header {
+      padding: 0 25px;
+   }
+   .close_burger_header {
+      width: 20px;
+      height: 20px;
+      margin: 0 20px 0 20px;
+   }
+   .footer_contacts {
+      margin: 0;
+   }
+   .serv_modal1,
+   .serv_modal2,
+   .serv_modal3,
+   .serv_modal4,
+   .serv_modal5,
+   .serv_modal6 {
+      width: 100%;
+   }
+   .serv_modal1 .display_flex,
+   .serv_modal2 .display_flex,
+   .serv_modal3 .display_flex,
+   .serv_modal4 .display_flex,
+   .serv_modal5 .display_flex,
+   .serv_modal6 .display_flex {
+      flex-flow: column;
+   }
+   .serv_modal1 p,
+   .serv_modal2 p,
+   .serv_modal3 p,
+   .serv_modal4 p,
+   .serv_modal5 p,
+   .serv_modal6 p {
+      font-size: 15px;
+      margin-bottom: 30px;
+   }
+   .serv_modal1 h3,
+   .serv_modal2 h3,
+   .serv_modal3 h3,
+   .serv_modal4 h3,
+   .serv_modal5 h3,
+   .serv_modal6 h3 {
+      margin: 20px 0 20px 0;
+      font-size: 24px;
+   }
+}

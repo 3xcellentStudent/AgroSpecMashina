@@ -1,0 +1,41 @@
+@media screen and (max-width:360px) {
+   .contacts_flex_wrap {
+      flex-flow: column;
+   }
+   .contacts_flex {
+      margin-top: 10px;
+   }
+   .contacts_mail {
+      flex-flow: column;
+   }
+   .post_icon {
+      position: relative;
+      margin: 10px 0 0;
+   }
+   .post_icon .mailto_wrap {
+      left: -80px;
+   }
+   .span_green {
+      margin-bottom: 10px;
+   }
+   .span_name:nth-child(1) {
+      margin-left: 0;
+   }
+   .span_name:nth-child(2) {
+      margin: 10px 0 0;
+   }
+   .line_footer {
+      top: 20%;
+      left: -20%;
+   }
+   .contacts_block::before {
+      background: linear-gradient(110deg, #111, #111, #191919, #1F1F1F, #191919, #111, #111);
+   }
+   .main_content {
+      padding-left: 15px;
+      padding-right: 15px;
+   }
+   .contacts_flex_wrap .span_human {
+      margin: 0;
+   }
+}

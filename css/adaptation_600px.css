@@ -1,0 +1,92 @@
+@media screen and (max-width:600px) {
+   .gallery_item_img {
+      margin: 10px;
+   }
+   .slick-dots li{
+     display: none;
+   }
+   .slick-arrow.slick-prev{
+      width: 40px;
+      height: 40px;
+   }
+   .slick-arrow.slick-prev::before {
+      width: 40px;
+      height: 40px;
+   }
+   .slick-arrow.slick-next{
+      width: 40px;
+      height: 40px;
+   }
+   .slick-arrow.slick-next::before {
+      width: 40px;
+      height: 40px;
+   }
+   .header_nav li {
+      margin: 0;
+      padding: 15px 0 4px 0;
+      z-index: 100;
+      border-bottom: 1px solid #BCAAA4;
+   }
+   .header_nav li a {
+      font-size: 20px;
+   }
+   .header_nav {
+      position: fixed;
+      top: 60px;
+      left: 50%;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 140px;
+      flex-flow: column;
+      padding: 0 5px;
+
+      transform: scaleX(0) translateX(-50%);
+      -o-transform: scaleX(0) translateX(-50%);
+      -ms-transform: scaleX(0) translateX(-50%);
+      -moz-transform: scaleX(0) translateX(-50%);
+      -webkit-transform: scaleX(0) translateX(-50%);
+
+      transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+   }
+   .header_nav.active {
+      transform: scaleX(1.001) translateX(-50%);
+      -o-transform: scaleX(1.001) translateX(-50%);
+      -ms-transform: scaleX(1.001) translateX(-50%);
+      -moz-transform: scaleX(1.001) translateX(-50%);
+      -webkit-transform: scaleX(1.001) translateX(-50%);
+   }
+   .header_nav:before {
+      content: '';
+      display: block;
+      position: fixed;
+      top: -60px;
+      left: 100%;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(17, 17, 17, 0.8);
+      z-index: 50;
+
+      transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+   }
+   .header_nav.active:before {
+      left: 0;
+   }
+   .close_burger_header.close_burger_header2 {
+      width: 24px;
+      height: 24px;
+      margin: 0 20px 0 20px;
+   }
+   .service_info li {
+      font-size: calc(13px + (16 - 13) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .service_info {
+      padding: 0 0 0 10px;
+   }
+}

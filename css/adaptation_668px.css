@@ -1,0 +1,89 @@
+@media screen and (max-width:668px) {
+   .section1 {
+      position: relative;
+      background: transparent;
+   }
+   .sect1_left {
+      z-index: 2;
+      width: 100%;
+   }
+   .sect1_right {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      background: transparent;
+   }
+   .sect1_right::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      position: absolute;
+      background: rgba(17, 17, 17, 0.8);
+   }
+   .sect1_left-text p {
+      width: 90%;
+   }
+   .bg_line {
+      z-index: 1;
+   }
+   .contacts_block {
+      height: auto;
+      padding: 10px;
+   }
+   .services {
+      display: grid;
+      grid-template: repeat(3, minmax(200px, 250px)) / 50% 50%;
+   }
+   .header_nav li {
+      margin: 0 10px;
+   }
+   .section1 {
+      margin-bottom: 30px;
+   }
+   .section2 ,.section3 {
+      margin: 30px 0;
+   }
+   .section4 {
+      margin: 0px 0;
+   }
+   .serv_modal_slider {
+      width: 100%;
+      height: 80vh;
+   }
+   .sect1_left .display_flex {
+      width: 80%;
+   }
+   .span_day:nth-child(1) {
+      display: block;
+   }
+   .span_day:nth-child(2) {
+      display: none;
+   }
+   .sect2-bottom {
+      background: linear-gradient(110deg, transparent, transparent, #1F1F1F 40%, #111, #111);
+   }
+   .bg_polygon1,
+   .bg_polygon2 {
+      width: 150px;
+      height: 150px;
+   }
+   .section3 .bg_polygon1, .bg_polygon2 {
+      width: 200px;
+      height: 200px;
+   }
+   .bg_gear1,
+   .bg_gear2 {
+      width: 150px;
+      height: 150px;
+   }
+   .main_content {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   .header {
+      padding: calc(20px + (40 - 20) * ((100vw - 320px) / (1920 - 320)));
+   }
+}

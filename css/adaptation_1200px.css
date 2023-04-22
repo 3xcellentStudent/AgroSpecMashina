@@ -1,0 +1,101 @@
+@media screen and (max-width:1200px) {
+   .h1 {
+      font-size: calc(18px + (36 - 18) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .h1_img {
+      width: calc(30px + (36 - 30) * ((100vw - 320px) / (1920 - 320)));
+      height: calc(33px + (36 - 33) * ((100vw - 320px) / (1920 - 320)));
+      margin-right: calc(6px + (12 - 6) * ((100vw - 320px) / (1920 - 320)));
+   }
+   h2 {
+      font-size: calc(30px + (56 - 30) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .sect1_left h2 {
+      font-size: calc(24px + (38 - 24) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .sect1_left h2:first-child {
+      margin-bottom: 10px;
+   }
+   h3 {
+      font-size: calc(24px + (40 - 24) * ((100vw - 320px) / (1920 - 320)));
+   }
+   h4 {
+      font-size: calc(16px + (22 - 16) * ((100vw - 320px) / (1920 - 320)));
+   }
+   p {
+      font-size: calc(14px + (20 - 14) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .sect2_text p {
+      font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .main_content {
+      padding: 0 40px 0 40px;
+      padding-top: calc(70px + (160 - 70) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .arrow_nextSect:nth-child(3) {
+      margin: 60px;
+   }
+   .section2 {
+      margin: 60px 0;
+   } 
+   .section4 {
+      margin: 60px 0;
+   }
+   .section3 {
+      margin: 60px 0;
+   }
+   .header {
+      height: calc(50px + (80 - 50) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .header_nav {
+      padding: 0;
+      margin: 0;
+   }
+   .header_nav li a {
+      font-size: calc(13px + (16 - 13) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .skew_btn_text {
+      font-size: calc(13px + (18 - 13) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .services_item .skew_btn_text {
+      font-size: calc(13px + (16 - 13) * ((100vw - 320px) / (1920 - 320)));
+   }
+   span {
+      font-size: calc(13px + (18 - 13) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .skew_contact {
+      padding-top: calc(8px + (30 - 8) * ((100vw - 320px) / (1920 - 320)));
+      padding-bottom: calc(8px + (30 - 8) * ((100vw - 320px) / (1920 - 320)));
+      padding-left: calc(12px + (30 - 12) * ((100vw - 320px) / (1920 - 320)));
+      padding-right: calc(12px + (30 - 12) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .sect1_right {
+      min-width: 50%;
+      min-height: 200px;
+   }
+   .sect1_left-text p {
+      width: 70%;
+   }
+   .tel,
+   .mailto {
+      font-size: calc(13px + (18 - 13) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .mailto {
+      margin-top: 5px;
+   }
+   .bg_line {
+      height: calc(40px + (100 - 40) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .skew_btn_text {
+      padding-top: 7px;
+      padding-bottom: 7px;
+      padding-left: calc(10px + (15 - 10) * ((100vw - 320px) / (1920 - 320)));
+      padding-right: calc(10px + (15 - 10) * ((100vw - 320px) / (1920 - 320)));
+   }
+   .post_icon .mailto {
+      top: -10%;
+   }
+   .contacts_mail {
+      margin: 0 0 0 80px;
+   }
+}

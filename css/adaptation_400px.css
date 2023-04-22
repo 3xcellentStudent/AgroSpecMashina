@@ -1,0 +1,46 @@
+@media screen and (max-width:400px) {
+   .display_flex {
+      margin: 10px;
+   }
+   .sect1_left .display_flex {
+      width: 90%;
+      margin: 20px auto 0 auto;
+   }
+   .sect1_left .skew_contact {
+      margin: 0 10px 0 0;
+   }
+   .contacts_text {
+      padding: 0;
+   }
+   .span_name .tel {
+      font-size: 13px;
+   }
+   .post_icon:not(:hover) .mailto_wrap {
+      padding: 3px 5px;
+   }
+   .mailto_wrap .mailto {
+      font-weight: 500;
+      font-size: 15px;
+   }
+   .post_icon .mailto_wrap {
+      width: 190px;
+   }
+   .services {
+      grid-template: repeat(6, 130px) / 100%;
+   }
+   .mark_img, .mark_img img {
+      width: 20px;
+      height: 20px;
+   }
+   .mark_img {
+      top: 2px;
+   }
+   .serv_modal1.active_services,
+   .serv_modal2.active_services,
+   .serv_modal3.active_services,
+   .serv_modal4.active_services,
+   .serv_modal5.active_services,
+   .serv_modal6.active_services {
+      padding: 20px;
+   }
+}
